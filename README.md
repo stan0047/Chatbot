@@ -4,7 +4,7 @@
 [![Open app(stopped the service as maintaing was really expensive)](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)](https://chatbot-chmyu8ujttvhyvfzjsmrrg.streamlit.app/)
 
 
-⚡⚡!!!!I had to halt the project due to the high costs associated with its deployment.!!!⚡⚡
+⚡⚡!!!!  I had to halt the project due to the high costs associated with its deployment.  !!!⚡⚡
 
 ## 🤔 What is this?
 
