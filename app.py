@@ -7,15 +7,15 @@ from utils import debounce_replicate_run
 from auth0_component import login_button
 
 ###Global variables:###
-REPLICATE_API_TOKEN = 'r8_4tgQs4SecdiRBaSMGuPMb5zvtHtSnjk4WLFc8'
+REPLICATE_API_TOKEN = ''
 #Your your (Replicate) models' endpoints:
 REPLICATE_MODEL_ENDPOINT7B = 'a16z-infra/llama7b-v2-chat:4f0a4744c7295c024a1de15e1a63c880d3da035fa1f49bfd344fe076074c8eea'
 REPLICATE_MODEL_ENDPOINT13B = 'a16z-infra/llama13b-v2-chat:df7690f1994d94e96ad9d568eac121aecf50684a0b0963b25a41cc40061269e5'
 REPLICATE_MODEL_ENDPOINT70B = 'replicate/llama70b-v2-chat:e951f18578850b652510200860fc4ea62b3b16fac280f83ff32282f87bbd2e48'
 PRE_PROMPT = "sorry!! app getting to expensive to maintain."
 #Auth0 for auth
-AUTH0_CLIENTID = 'Laq7kpTIcHAJXk0XyYCu9kHFk90PqaYa'
-AUTH0_DOMAIN = 'dev-tygbdbmgfduqxmi6.us.auth0.com'
+AUTH0_CLIENTID = ''
+AUTH0_DOMAIN = ''
 
 if not (REPLICATE_API_TOKEN and REPLICATE_MODEL_ENDPOINT13B and REPLICATE_MODEL_ENDPOINT7B and 
         AUTH0_CLIENTID and AUTH0_DOMAIN):
